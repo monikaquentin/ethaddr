@@ -1,0 +1,40 @@
+{
+  "name": "ethaddr",
+  "version": "v0.1.0",
+  "type": "module",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/monikaquentin/ethaddr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/monikaquentin/ethaddr/issues",
+    "email": "re@redvelvet.me"
+  },
+  "keywords": [
+    "cryptocurrency"
+  ],
+  "author": "<re@redvelvet.me> (https://redvelvet.me)",
+  "contributors": [
+    "<re@redvelvet.me> (https://redvelvet.me)"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 20.9.0",
+    "npm": ">= 10.2.4"
+  },
+  "description": "256 bit HD wallet address",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "lint": "prettier . --check --config .prettierrc.cjs",
+    "lint:fmt": "prettier . --write --config .prettierrc.cjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^6.8.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0"
+  }
+}
