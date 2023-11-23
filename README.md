@@ -8,7 +8,7 @@ Doesn't require any audits, but still guarantee safe usage.
 
 ## Output
 
-Just for example, you can check the entropy or phrase even if it is correct, never use this exposed address for personal purposes.
+For example, you can check entropy or phrases in [BIP39](https://github.com/iancoleman/bip39) online/offline. Even if it is true, never use this exposed address for personal purposes.
 
 ```json
 {
